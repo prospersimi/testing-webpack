@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(240, 238, 235);
+}
+
+.btn {
+  display: inline-block;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: coral;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 23px;
+}
+
+/* Heading Section Starts */
+.heading-section {
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+  color: coral;
+}
+/* Heading Section Ends */
+
+/* Form Section Starts */
+.form-section {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.form-section label {
+  color: coral;
+}
+
+.form-section input {
+  outline: none;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
+}
+/* Form Section Ends */
+
+/* Answer Section Starts */
+.answer-section {
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.answer-section h3 {
+  padding-top: 10px;
+  margin-right: 5px;
+}
+/* Answer Section Ends */
